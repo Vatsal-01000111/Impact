@@ -1,0 +1,50 @@
+footer{
+    height: 23rem;
+    border-top: 1px solid black;
+    margin-top: 10rem;
+    background: #78bd72;
+
+  
+}
+
+  
+ 
+ 
+
+
+  .top-foot{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+  }
+  .impacthead h2{
+    font-family: cursive;
+  }
+  .our-services h2{
+    font-family: cursive;
+  }
+  .our-services a{
+    text-decoration: none;
+  }
+  .our-services a li{
+    font-size: 1.2rem;
+    color: #4c2435;
+    list-style: none;
+  }
+  .bottom-foot{
+    padding: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #insta-logo{
+    width: 60px;
+  }
+  .bottom-foot a{
+    text-decoration: none;
+
+  }
+  .impacthead p{
+    font-size: 19px;
+    color: #020202;
+  }

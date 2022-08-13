@@ -8,7 +8,7 @@ nav{
    left: 0;
    right: 0;
 display: flex;
-background-color: #fefeff15;
+background-color: #1f1fe5b1;
 justify-content: space-between;
 }
 nav a {
@@ -32,8 +32,8 @@ nav a li{
 }
 img{
    
-    width: 200px;
-    height: 100px;
+    width: 100px;
+    height: 80px;
 }
 .tagline h2{
     margin-top: 34px;
@@ -299,8 +299,24 @@ align-items: center;
     height: 250px;
     border-radius: 10px;
 }
-footer{
-    border: 2px solid red;
-    background-color: green;
-    display: flex;
+body{
+    margin : 0;
+}
+.fa {
+  box-shadow: 0.5px 0.5px 4px 0.5px;
+  color: black;
+  padding: 15px;
+  font-size: 30px;
+  width: 10px;
+  height: 15px;
+  border-radius: 10%;
+  text-align: center;
+  text-decoration: none;
+  margin:3px  ;
+}
+
+  
+  
+.fa:hover {
+    opacity: 0.7;
 }
