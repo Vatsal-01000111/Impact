@@ -2,24 +2,22 @@ footer{
     height: 23rem;
     border-top: 1px solid black;
     margin-top: 10rem;
-    background: #78bd72;
-
-  
+    background: #000000;
+    color: azure;  
 }
-
-  
- 
- 
-
-
   .top-foot{
     display: flex;
     justify-content: space-between;
     padding: 12px;
+    color: azure;  
   }
   .impacthead h2{
     font-family: cursive;
   }
+  .impacthead p a{
+    color:white;
+  }
+
   .our-services h2{
     font-family: cursive;
   }
@@ -28,7 +26,7 @@ footer{
   }
   .our-services a li{
     font-size: 1.2rem;
-    color: #4c2435;
+    color: #ffffff;
     list-style: none;
   }
   .bottom-foot{
@@ -37,10 +35,14 @@ footer{
     justify-content: center;
     align-items: center;
   }
+  .bottom-foot h4 a{
+    color:white;
+  }
   #insta-logo{
     width: 60px;
   }
   .bottom-foot a{
+    color: rgb(175, 105, 19);
     text-decoration: none;
 
   }
