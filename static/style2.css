@@ -4,7 +4,6 @@ body {
 }
 
 
-  
 nav{
 	position: fixed;
 	overflow: hidden;
@@ -36,16 +35,12 @@ nav{
  }
  
  
- nav a {
-	 text-decoration: none;
- }
+
  .navbar{
 	 /* position: fixed; */	
 	 display: flex;
  }
- nav a:hover{
- text-decoration: underline;
- }
+
  nav a li{
 	 margin-right: 18px;
 	 margin-left: 5px;
@@ -65,7 +60,7 @@ nav{
  
  .top{
 	 margin-top: 100px;
-	 background-image: url(../static/siebg.jpg);
+	 background-image: url(../static/heartcol.png);
 	 background-repeat: no-repeat;
 	 width: 100%;
 	 height: 700px;
@@ -225,15 +220,17 @@ body{
 .fa{
 
 	box-shadow: 0.5px 0.5px 4px 0.5px;
-  	color: black;
- 	 padding: 15px;
-  	font-size: 30px;
-  	width: 10px;
-  	height: 15px;
-  	border-radius: 10%;
-  	text-align: center;
-  	text-decoration: none;
-  	margin:3px  ;
+    color: black;
+    padding: 15px;
+    font-size: 30px;
+    width: 47px;
+    height: 50px;
+    height: 25px;
+    border-radius: 10%;
+    text-align: center;
+    text-decoration: none;
+    margin: 3px;
+    height: 43px;
 }
 
   
@@ -241,3 +238,57 @@ body{
 .fa:hover {
     opacity: 0.7;
 }
+footer{
+    height: 23rem;
+    border-top: 1px solid black;
+    margin-top: 10rem;
+    background: #000000;
+    color: azure;  
+}
+  .top-foot{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    color: azure;  
+  }
+  .impacthead h2{
+    font-family: cursive;
+  }
+  .impacthead p a{
+    color:white;
+  }
+
+  .our-services h2{
+    font-family: cursive;
+  }
+  .our-services a{
+    text-decoration: none;
+  }
+  .our-services a li{
+    font-size: 1.2rem;
+    color: #ffffff;
+    list-style: none;
+  }
+  .bottom-foot{
+    padding: 15px;
+    display: flex;
+	font-size: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .bottom-foot h4 a{
+    color:white;
+  }
+  #insta-logo{
+	height: 50px;
+    width: 60px;
+  }
+  .bottom-foot a{
+    color: rgb(175, 105, 19);
+    text-decoration: none;
+
+  }
+  .impacthead p{
+    font-size: 1.1rem;
+    color: #020202;
+  }
