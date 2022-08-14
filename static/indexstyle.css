@@ -1,4 +1,7 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
 
+}
 
   
 nav{
@@ -11,6 +14,11 @@ nav{
     background-color: #0000006d;
     justify-content: space-between;
     height: 100px;
+}
+
+.stat_inside img{
+    width: 80px;
+    height: 80px;
 }
 
 .logo_name{
@@ -65,37 +73,79 @@ img{
     margin-bottom:100px ;
     background-image: url(../static/heartcol.png);
     background-repeat: no-repeat;
+    background-position: center left;
     width: 100%;
     height: 60rem;
     display: flex;
     flex-direction: column;
-    background-position: center;
     justify-content: center;
     /* padding: 30px; */
     z-index: -2;
 }
+.top button{
+    text-align: center;
+    color: white;
+    border: 1px solid #E81F76;
+    background-color: #E81F76;
+    transition: all .3s linear;
+    border-radius: 50px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+}
+.top button a {
+    color: azure;
+    text-decoration: none;
+    font-size: 1.3rem;
+    
+}
 
 .top-title{
-    color: #E81F76;
-    margin-left: 30px;
-    font-size: 40px;
+    color: #000000;
+    margin-left: 15px;
+    font-size: 35px;
     padding-bottom: 5px;
+    /* -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(255, 255, 255); */
 }
 .top-title h1{
     margin-bottom: 0px;
+
 }
 
 .top-content{
-    margin-left: 40px;
+    margin-left: 15px;
     font-size: 20px;
-    width: 500px;
+    width: 370px;
 }
 
+
 .joinus{
-    margin-left: 30px;
+    margin-top: 10px;
+    color: wheat;
+    margin-left: 15px;
     width: 120px;
     height: 30px;
+    text-align: center;
+    color: white;
+    border:1px solid #E81F76;
+    background-color: #E81F76;
+    transition: all .3s linear;
     border-radius: 50px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.joinus:hover{
+    color: white;
+    background-color: black;
+    border:1px solid black;
 }
 
 .stats{
@@ -308,6 +358,9 @@ align-items: center;
 display: flex;
 justify-content: center;
 align-items: center;
+}
+.submit_btn button a {
+    text-decoration: none;
 }
 
 .our_team{
